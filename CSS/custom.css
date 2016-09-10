@@ -1,0 +1,96 @@
+
+body{
+	background-color: #B7C3F3;
+	background-image: url("../IMAGES/background.png");
+	background-size: cover;
+	overflow-x:hidden;
+}
+.container{
+	background-color: #F37748; 
+	margin-top:-1em;
+	margin-left:-1em;
+	margin-right: -1em;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 1.5em;
+	font-size: 1em;
+	font-family: HELVETICA;
+	letter-spacing: .2em;
+	color: #EEE;
+	font-weight:normal;
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+}	
+
+#search{
+	background-color: #EEE;
+	display: block;
+	margin:auto;
+	padding: 0.5em;
+	font-size: 1.5em;
+	font-family: courier;
+	color:#067BC2;
+	width:80%;
+	border: solid .5em #F37748;
+	font-weight: bold;
+
+}
+
+#logo{
+	display: block;
+	margin:5% auto;
+	width: 30%;
+
+}
+
+input::-webkit-input-placeholder {
+color: #5F9F9F !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #067BC2 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #067BC2 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #067BC2 !important;  
+}
+
+input:focus {
+    outline-width: 0;
+    box-shadow: 0 0 1em #F37748;
+  	padding: 3px 0px 3px 3px;
+  	margin: 5px 1px 3px 0px;
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+.ui-autocomplete {
+     /*margin: 20px !important;*/
+     top: auto !important;
+     margin:auto !important;
+}
+
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+
+  background: rgba(0, 0, 0, 0.5);
+
+}
